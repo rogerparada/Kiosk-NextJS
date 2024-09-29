@@ -2,7 +2,6 @@
 import useSWR from "swr";
 import OrderCard from "@/components/order/OrderCard";
 import Heading from "@/components/ui/Heading";
-import { prisma } from "@/src/lib/prisma";
 import { OrderWithProducts } from "@/src/types";
 
 export default function OrderPage() {
