@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Food Ordering Kiosk with Management Interface and Order Wallboard
 
-## Getting Started
+This project involved the design and development of a self-service food ordering kiosk. The kiosk features an intuitive touch-screen interface that allows customers to easily browse the menu, select products, and customize their orders.
 
-First, run the development server:
+## Key functionalities include:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* **Product Management Screen**: Administrators can easily add, update, or remove menu items, set availability, and adjust pricing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Order Processing Screen**: A real-time view of all incoming orders, allowing staff to monitor order status, prioritize preparations, and track order completion.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* **Orders Wallboard**: A large display visible to customers, showing the status of their orders are ready for Pickup, ensuring a seamless and organized customer experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The system integrates with the kitchen workflow, optimizing order handling and reducing service time. Additionally, it offers a streamlined experience for both customers and staff, enhancing operational efficiency.
 
-## Learn More
+## Demo Images 
 
-To learn more about Next.js, take a look at the following resources:
+### Kiosk 
+![Demo](https://raw.githubusercontent.com/rogerparada/Kiosk-NextJS/refs/heads/main/public/Status/Kiosk-Sell.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Kitchen Orders
+![Demo](https://raw.githubusercontent.com/rogerparada/Kiosk-NextJS/refs/heads/main/public/Status/Kiosk-Order.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Wallboard 
+![Demo](https://raw.githubusercontent.com/rogerparada/Kiosk-NextJS/refs/heads/main/public/Status/Kiosk-Orders.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+### Product Management
+![Demo](https://raw.githubusercontent.com/rogerparada/Kiosk-NextJS/refs/heads/main/public/Status/Kiosk-Products.png)
